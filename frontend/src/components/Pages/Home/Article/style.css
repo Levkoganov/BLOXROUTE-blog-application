@@ -1,0 +1,25 @@
+.div-article {
+  border-left: 3px solid #1976d269;
+  padding-left: 8px;
+  border-radius: 5px;
+  overflow-wrap: anywhere;
+  box-shadow: 5px 5px #1974d22e;
+  padding-bottom: 5px;
+}
+
+.div-article:nth-child(odd) {
+  background-color: aliceblue;
+}
+
+.div-article > p {
+  font-size: small;
+  color: rgb(49, 49, 49);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-article > h5 {
+  padding: 0;
+  margin: 0;
+  text-decoration-line: underline;
+}
