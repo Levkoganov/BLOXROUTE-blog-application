@@ -6,9 +6,9 @@ CREATE DATABASE blogs;
 
 ## SERVER:
 
-*) change .env values if needed (mysql password and username)
-MYSQL_PASSWORD=""
-MYSQL_USERNAME=""
+*) change .env values
+MYSQL_PASSWORD="your password"
+MYSQL_USERNAME="your username"
 
 1. run init_db.py
 2. run app.py
